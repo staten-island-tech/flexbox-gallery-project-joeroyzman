@@ -7,11 +7,21 @@ body,
   font-size: 62.5%;
 }
 
-.parent {
-  font-size: 100px;
+.container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.child {
-  border: 5px solid lightgray;
+.post {
+  position: relative;
+  padding: 100px;
+  margin-top: 100px;
+  display: flex;
+  border-radius: 50px;
+}
+
+img {
+  width: 300px;
+  height: auto;
 }
