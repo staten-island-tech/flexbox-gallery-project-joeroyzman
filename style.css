@@ -5,7 +5,17 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: honeydew;
+}
+body {
+  background-color: #1db954;
+}
+
+.title {
+  font-size: 85px;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  margin-top: 30px;
+  background-image:url(img/spotify.png);
 }
 
 .container {
@@ -14,6 +24,9 @@ body,
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 1rem auto;
+  width: 80vw;
+  font-size: 50px;
 }
 
 .post {
@@ -25,10 +38,12 @@ body,
   font-size: 50%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: oblique;
+  text-c;
   margin-top: 35px;
   width: 27%;
+  background-color: black;
 }
 
 img {
-  width: 275px;
+  width: 100%;
 }
