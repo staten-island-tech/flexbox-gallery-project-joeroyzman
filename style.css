@@ -27,7 +27,7 @@ body {
   margin: 1rem auto;
   width: 80vw;
   font-size: 50px;
-  
+  margin-bottom: 75px;
 }
 
 .post {
@@ -48,4 +48,12 @@ body {
 
 img {
   width: 100%;
+}
+
+.post1:hover {
+  transform: scale(1.01);
+}
+
+.post2 {
+  ;
 }
