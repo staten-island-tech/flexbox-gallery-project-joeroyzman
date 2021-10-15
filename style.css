@@ -13,7 +13,7 @@ body {
 .title {
   font-size: 85px;
   text-align: center;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   margin-top: 30px;
   color: white;
 }
@@ -39,7 +39,6 @@ body {
   font-size: 50%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: oblique;
-  text-c;
   margin-top: 35px;
   width: 27%;
   background-color: #1db954;
@@ -52,6 +51,7 @@ img {
 
 .post1:hover {
   transform: scale(1.01);
+  transition-duration: 3s;
 }
 
 .post2:hover {
@@ -75,33 +75,28 @@ img {
   outline: 10px solid white;
 }
 
-.post5:hover, .post6:hover, .post7:hover, .post8:hover, .post9:hover {
+.post5:hover,
+.post6:hover,
+.post7:hover,
+.post8:hover,
+.post9:hover {
   transform: matrix(3, 3, 3, 4, 5, 3);
 }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 800px) {
   .container {
     background-color: black;
   }
-  .post{
+  .post {
     width: 40%;
   }
 }
 
-
-
-@media screen and (max-width: 600px){
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: 90vw;
   }
-  .post{
+  .post {
     width: 80%;
   }
 }
@@ -115,7 +110,7 @@ img {
   }
 }
 
-.title {  
+.title {
   animation: 1s ease-out 0s 1 slideFromRight;
-  padding: 30px
+  padding: 30px;
 }
