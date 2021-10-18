@@ -11,10 +11,10 @@ body {
 }
 
 .title {
-  font-size: 85px;
+  font-size: 8.5rem;
   text-align: center;
   font-family: "Signika", sans-serif;
-  margin-top: 30px;
+  margin-top: 2rem;
   color: white;
 }
 
@@ -26,20 +26,19 @@ body {
   flex-wrap: wrap;
   margin: 1rem auto;
   width: 80vw;
-  font-size: 50px;
-  margin-bottom: 75px;
+  font-size: 5rem;
+  margin-bottom: 7.5rem;
 }
 
 .post {
   position: relative;
-  padding: 50px;
-  border-radius: 50px;
-  border: 3px solid grey;
+  padding: 5rem;
+  border-radius: 5rem;
   align-items: flex-end;
   font-size: 50%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: oblique;
-  margin-top: 35px;
+  margin-top: 5rem;
   width: 27%;
   background-color: #1db954;
   box-shadow: 3px 1px 5px 5px white;
@@ -50,7 +49,7 @@ img {
 }
 
 .post1:hover {
-  transform: scale(1.01);
+  transform: scale(1.03);
   transition-duration: 3s;
 }
 
@@ -68,11 +67,13 @@ img {
 }
 
 .post3:hover {
-  transform: skew(120deg, 20deg);
+  transform: skew(360deg, 0deg);
+  transition-duration: 3s;
 }
 
 .post4:hover {
-  outline: 10px solid white;
+  outline: 2rem solid white;
+  transition-duration: 2s;
 }
 
 .post5:hover,
@@ -80,7 +81,8 @@ img {
 .post7:hover,
 .post8:hover,
 .post9:hover {
-  transform: matrix(3, 3, 3, 4, 5, 3);
+  transform: translate(490px, 0%);
+  transition-duration: 3s;
 }
 
 @media screen and (max-width: 800px) {
@@ -112,5 +114,16 @@ img {
 
 .title {
   animation: 1s ease-out 0s 1 slideFromRight;
-  padding: 30px;
+  padding: 3rem;
+}
+
+.subheader1 {
+  font-size: 1.5rem;
+  margin-top: 5;
+  font-family: "Signika", sans-serif;
+}
+
+.subheader2 {
+  font-size: 1.2rem;
+  font-family: "Signika", sans-serif;
 }
